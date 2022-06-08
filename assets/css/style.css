@@ -1,0 +1,50 @@
+
+
+body{
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+    font-family: sans-serif;
+}
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    color: rgb(228, 223, 214);
+  }
+
+  header a {
+    text-decoration: none;
+    color: rgb(228, 223, 214);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+  
+  header nav ul li a:hover {
+    background: rgba(24, 24, 27, 0.3);
+    color: rgb(228, 223, 214);
+    border-radius: 15px;
+    text-shadow: none;
+  }
